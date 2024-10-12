@@ -1,117 +1,50 @@
+<<<<<<< HEAD
 # AgriVerifyy
+=======
+# Getting Started with Create React App
 
-AgriVerifyy is a blockchain-based solution for agricultural supply chain management and product verification. This project aims to enhance transparency, traceability, and trust in the agricultural industry by leveraging blockchain technology.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
+## Available Scripts
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Smart Contracts](#smart-contracts)
-- [Frontend](#frontend)
-- [Contributing](#contributing)
-- [License](#license)
+In the project directory, you can run:
 
-## Features
+### `npm start`
 
-- Blockchain-based product verification
-- QR code generation for agricultural products
-- User authentication and authorization
-- Product registration and tracking
-- Supply chain management
-- Responsive web interface
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Technologies Used
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- Solidity (for smart contracts)
-- Hardhat (Ethereum development environment)
-- React.js (frontend framework)
-- Next.js (React framework for server-side rendering)
-- Ethers.js (Ethereum library)
-- Tailwind CSS (for styling)
+### `npm test`
 
-## Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
+### `npm run build`
 
-- Node.js (v14 or later)
-- npm
-- MetaMask browser extension
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Installation
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/keyabist/AgriVerifyy.git
-   cd AgriVerifyy
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. Install dependencies:
-   ```
-   npm install
-   ```
+### `npm run eject`
 
-## Usage
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-The usage section is crucial for users to understand how to interact with your application. Follow these steps to run and use the AgriVerifyy application:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. Start the development server:
-   ```
-   npm run dev
-   ```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-2. Open your browser and navigate to `http://localhost:3000`
-
-3. Connect your MetaMask wallet to interact with the dApp
-
-4. Use the application to register products, generate QR codes, verify products, and manage the supply chain
-
-Note: Ensure that you have set up your MetaMask wallet correctly and connected it to the appropriate network (e.g., Ethereum mainnet, testnet, or local development network) before interacting with the dApp.
-
-## Smart Contracts
-
-The smart contracts for this project are located in the `contracts` directory. The main contract is `AgriVerifyy.sol`, which handles product registration, verification, and supply chain management.
-
-To compile and deploy the smart contracts:
-
-1. Compile contracts:
-   ```
-   npx hardhat compile
-   ```
-
-2. Deploy contracts:
-   ```
-   npx hardhat run scripts/deploy.js --network <your-network>
-   ```
-
-## Frontend
-
-The frontend is built using React.js and Next.js. The main components and pages are located in the `pages` and `components` directories.
-
-Key features of the frontend include:
-- User authentication
-- Product registration form
-- QR code generation
-- Product verification
-- Supply chain management interface
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Demonstration of AgriVerifyy
-
-https://drive.google.com/file/d/1_8-ZYdYPxcs5Z_N_197lLgpOAQGY1WyR/view?usp=sharing
-
-## License
-
-This project is licensed under the MIT License.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+>>>>>>> 8232887 (final commit1)
